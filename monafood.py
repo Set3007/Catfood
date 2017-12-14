@@ -174,7 +174,7 @@ def detect():
 	for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
 		image = frame.array
 		gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-		rects = detector.detectMultiScale(gray, scaleFactor=1.35, minNeighbors=20, minSize=(75, 75))
+		rects = detector.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=20, minSize=(75, 75))
 		# if detect
 		if rects < "[":		
 			loop = loop + 1
@@ -187,7 +187,7 @@ def detect():
 			print "not detected"
 			rawCapture.truncate(0)
 		# if detect complet: take the framing of detection (rects[0]) , convert to black and white and count the number of black pixel
-		if loop == 1:
+		if loop == 2:
 			x, y, w, h = rects[0] 
 			img = image[y:(y+h),x:(x+w)] 
 			num += 1
