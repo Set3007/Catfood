@@ -2,7 +2,9 @@
 
 Catfood is a Python script working in a RaspberryPi 3 with Raspbian. Catfood recognizes one cat on two different cats with Opencv and opens access to the food for the recognized cat.
 
-![Presentation available on Youtube](https://www.youtube.com/watch?v=SBdEA9haOWg&t=1s)
+#### Presentation available on Youtube
+<a href="https://www.youtube.com/watch?v=SBdEA9haOWg)" target="_blank"><img src="http://i3.ytimg.com/vi/SBdEA9haOWg/hqdefault.jpg" 
+alt="Presentation available on Youtube" width="240" height="180" border="10" /></a>
 
 ![Authorized cat](https://github.com/Set3007/Catfood/blob/master/Extra/Captur/CaptureMona.JPG)
 ![Unauthorized cat](https://github.com/Set3007/Catfood/blob/master/Extra/Captur/CaptureTiti.JPG)
